@@ -6,6 +6,7 @@ int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
     qDebug() << "System Initialization Started.";
+    qDebug() << "About Screen Added";
     QQmlApplicationEngine engine;
     QObject::connect(
         &engine,
