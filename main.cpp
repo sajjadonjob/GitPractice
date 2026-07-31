@@ -8,6 +8,7 @@ int main(int argc, char *argv[])
     qDebug() << "System Initialization Started.";
     qDebug() << "About Screen Added";
     qDebug() << "Version 1.0";
+    qDebug() << "About Screen Bug Fixed";
     QQmlApplicationEngine engine;
     QObject::connect(
         &engine,
