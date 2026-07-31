@@ -8,6 +8,7 @@ int main(int argc, char *argv[])
     qDebug() << "System Initialization Started.";
     qDebug() << "Bug Fixed";
     qDebug() << "Critical Bug Fixed";
+    qDebug() << "Memory Leak Fixed";
     QQmlApplicationEngine engine;
     QObject::connect(
         &engine,
